@@ -30,12 +30,12 @@
         {
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            button1 = new Button();
-            button2 = new Button();
+            lblsalmon = new Label();
+            lblbrown = new Label();
+            lbllyellow = new Label();
+            lblolivegreen = new Label();
+            btnexit = new Button();
+            btnreset = new Button();
             SuspendLayout();
             // 
             // label1
@@ -58,65 +58,65 @@
             label2.TabIndex = 0;
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // lblsalmon
             // 
-            label3.BackColor = Color.Salmon;
-            label3.Location = new Point(39, 141);
-            label3.Margin = new Padding(30);
-            label3.Name = "label3";
-            label3.Size = new Size(261, 53);
-            label3.TabIndex = 0;
-            label3.TextAlign = ContentAlignment.MiddleCenter;
-            label3.Click += label3_Click;
+            lblsalmon.BackColor = Color.Salmon;
+            lblsalmon.Location = new Point(39, 141);
+            lblsalmon.Margin = new Padding(30);
+            lblsalmon.Name = "lblsalmon";
+            lblsalmon.Size = new Size(261, 53);
+            lblsalmon.TabIndex = 0;
+            lblsalmon.TextAlign = ContentAlignment.MiddleCenter;
+            lblsalmon.Click += label3_Click;
             // 
-            // label4
+            // lblbrown
             // 
-            label4.BackColor = Color.SaddleBrown;
-            label4.Location = new Point(39, 59);
-            label4.Margin = new Padding(30);
-            label4.Name = "label4";
-            label4.Size = new Size(261, 53);
-            label4.TabIndex = 0;
-            label4.TextAlign = ContentAlignment.MiddleCenter;
-            label4.Click += label4_Click;
+            lblbrown.BackColor = Color.SaddleBrown;
+            lblbrown.Location = new Point(39, 59);
+            lblbrown.Margin = new Padding(30);
+            lblbrown.Name = "lblbrown";
+            lblbrown.Size = new Size(261, 53);
+            lblbrown.TabIndex = 0;
+            lblbrown.TextAlign = ContentAlignment.MiddleCenter;
+            lblbrown.Click += label4_Click;
             // 
-            // label5
+            // lbllyellow
             // 
-            label5.BackColor = Color.LightYellow;
-            label5.Location = new Point(39, 224);
-            label5.Margin = new Padding(30);
-            label5.Name = "label5";
-            label5.Size = new Size(261, 53);
-            label5.TabIndex = 0;
-            label5.TextAlign = ContentAlignment.MiddleCenter;
+            lbllyellow.BackColor = Color.LightYellow;
+            lbllyellow.Location = new Point(39, 224);
+            lbllyellow.Margin = new Padding(30);
+            lbllyellow.Name = "lbllyellow";
+            lbllyellow.Size = new Size(261, 53);
+            lbllyellow.TabIndex = 0;
+            lbllyellow.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // label6
+            // lblolivegreen
             // 
-            label6.BackColor = Color.DarkOliveGreen;
-            label6.Location = new Point(39, 304);
-            label6.Margin = new Padding(30);
-            label6.Name = "label6";
-            label6.Size = new Size(261, 53);
-            label6.TabIndex = 0;
-            label6.TextAlign = ContentAlignment.MiddleCenter;
+            lblolivegreen.BackColor = Color.DarkOliveGreen;
+            lblolivegreen.Location = new Point(39, 304);
+            lblolivegreen.Margin = new Padding(30);
+            lblolivegreen.Name = "lblolivegreen";
+            lblolivegreen.Size = new Size(261, 53);
+            lblolivegreen.TabIndex = 0;
+            lblolivegreen.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // btnexit
             // 
-            button1.Location = new Point(177, 390);
-            button1.Name = "button1";
-            button1.Size = new Size(123, 88);
-            button1.TabIndex = 1;
-            button1.Text = "kilépés";
-            button1.UseVisualStyleBackColor = true;
+            btnexit.Location = new Point(177, 390);
+            btnexit.Name = "btnexit";
+            btnexit.Size = new Size(123, 88);
+            btnexit.TabIndex = 1;
+            btnexit.Text = "kilépés";
+            btnexit.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnreset
             // 
-            button2.Location = new Point(39, 390);
-            button2.Name = "button2";
-            button2.Size = new Size(132, 88);
-            button2.TabIndex = 1;
-            button2.Text = "alaphelyzet";
-            button2.UseVisualStyleBackColor = true;
+            btnreset.Location = new Point(39, 390);
+            btnreset.Name = "btnreset";
+            btnreset.Size = new Size(132, 88);
+            btnreset.TabIndex = 1;
+            btnreset.Text = "alaphelyzet";
+            btnreset.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -124,12 +124,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(344, 501);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(label4);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label3);
+            Controls.Add(btnreset);
+            Controls.Add(btnexit);
+            Controls.Add(lblbrown);
+            Controls.Add(lblolivegreen);
+            Controls.Add(lbllyellow);
+            Controls.Add(lblsalmon);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -141,11 +141,11 @@
 
         private Label label1;
         private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
-        private Button button1;
-        private Button button2;
+        private Label lblsalmon;
+        private Label lblbrown;
+        private Label lbllyellow;
+        private Label lblolivegreen;
+        private Button btnexit;
+        private Button btnreset;
     }
 }
