@@ -67,8 +67,6 @@
             lblsalmon.Size = new Size(261, 53);
             lblsalmon.TabIndex = 0;
             lblsalmon.TextAlign = ContentAlignment.MiddleCenter;
-            lblsalmon.Click += label3_Click;
-            // 
             // lblbrown
             // 
             lblbrown.BackColor = Color.SaddleBrown;
@@ -78,7 +76,6 @@
             lblbrown.Size = new Size(261, 53);
             lblbrown.TabIndex = 0;
             lblbrown.TextAlign = ContentAlignment.MiddleCenter;
-            lblbrown.Click += label4_Click;
             // 
             // lbllyellow
             // 
