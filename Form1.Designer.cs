@@ -60,7 +60,7 @@
             // 
             // label3
             // 
-            label3.BackColor = Color.SaddleBrown;
+            label3.BackColor = Color.Salmon;
             label3.Location = new Point(39, 141);
             label3.Margin = new Padding(30);
             label3.Name = "label3";
@@ -82,7 +82,7 @@
             // 
             // label5
             // 
-            label5.BackColor = Color.SaddleBrown;
+            label5.BackColor = Color.LightYellow;
             label5.Location = new Point(39, 224);
             label5.Margin = new Padding(30);
             label5.Name = "label5";
@@ -92,7 +92,7 @@
             // 
             // label6
             // 
-            label6.BackColor = Color.SaddleBrown;
+            label6.BackColor = Color.DarkOliveGreen;
             label6.Location = new Point(39, 304);
             label6.Margin = new Padding(30);
             label6.Name = "label6";
